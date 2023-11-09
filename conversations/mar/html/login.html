@@ -31,7 +31,7 @@
     // width to the value defined here, but the height will be
     // calculated based on the aspect ratio of the input stream.
   
-    const width = 300; // We will scale the photo width to this
+    const width = 310; // We will scale the photo width to this
     let height = 0; // This will be computed based on the input stream
   
     // |streaming| indicates whether or not we're currently streaming
@@ -218,12 +218,14 @@
                   </div>
                   <div>
                     <div class="camera">
-                      <video id="video">Video stream not available.</video>
-                        <button id="startbutton">Tomar foto</button>
+                      <video id="video" class="rounded">Video stream not available.</video>
+                      <div class="d-grid gap-2">
+                        <button id="startbutton" type="button" class="btn btn-primary btn-sm">Tomar foto</button>
+                      </div>
                     </div>
                       <canvas id="canvas"> </canvas>
                       <div class="output">
-                        <img id="photo" alt="The screen capture will appear in this box." />
+                        <img id="photo" alt="The screen capture will appear in this box." class="rounded"/>
                       </div>
                   </div>
                 <form id="my-form" method="POST" action="/cv/mar/conversation">

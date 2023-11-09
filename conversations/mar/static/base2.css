@@ -1,0 +1,29 @@
+
+  #canvas {
+    display: none;
+  }
+
+  #photo {
+    width: 310px;
+    height: 232.5px;
+    margin-left: 5px;
+  }
+  
+  .camera {
+    width: 310px;
+    display: inline-block;
+  }
+  
+  .output {
+    width: 310px;
+    height: 232.5px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+  }
+  
+  #startbutton {
+    display: block;
+    position: relative;
+    bottom: 37px;
+  }
